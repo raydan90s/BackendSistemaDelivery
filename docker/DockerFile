@@ -1,6 +1,9 @@
 # Imagen base de Postgres
 FROM postgres:18
 
+# Instala python3 y pip
+RUN apt-get update && apt-get install -y python3 python3-pip && rm -rf /var/lib/apt/lists/*
+
 # Copia tus scripts dentro del contenedor
 COPY start.sh /start.sh
 COPY importar_csv.sh /importar_csv.sh
