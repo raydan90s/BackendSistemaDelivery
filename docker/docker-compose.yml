@@ -1,0 +1,22 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:18
+    container_name: soacDB
+    environment:
+      POSTGRES_USER: Arrobo
+      POSTGRES_PASSWORD: Arrobo
+      POSTGRES_DB: SOAC
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./csv:/csv
+      - ./importar_csv.sh:/importar_csv.sh
+      - ./start.sh:/start.sh
+      - pgdata:/var/lib/postgresql/data
+    entrypoint: ["/start.sh"]
+
+volumes:
+  pgdata:
