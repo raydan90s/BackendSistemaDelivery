@@ -2,6 +2,15 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
+    "module-alias": "^2.2.3",
     "pg": "^8.16.3"
+  },
+  "_moduleAliases": {
+    "@controllers": "src/controllers",
+    "@models": "src/models",
+    "@routes": "src/routes",
+    "@services": "src/services",
+    "@config": "src/config",
+    "@middlewares": "src/middlewares"
   }
 }
