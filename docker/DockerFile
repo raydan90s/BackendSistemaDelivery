@@ -1,0 +1,18 @@
+# Imagen base de Postgres
+FROM postgres:18
+
+# Copia tus scripts dentro del contenedor
+COPY start.sh /start.sh
+COPY importar_csv.sh /importar_csv.sh
+
+# Copia el init.sql al entrypoint de Postgres
+COPY init.sql /docker-entrypoint-initdb.d/init.sql
+
+# Da permisos de ejecución a los scripts
+RUN chmod +x /start.sh /importar_csv.sh
+
+# Expone el puerto de Postgres
+EXPOSE 5432
+
+# El contenedor ejecutará start.sh al iniciar
+ENTRYPOINT ["/start.sh"]

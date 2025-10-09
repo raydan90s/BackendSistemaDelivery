@@ -1,6 +1,6 @@
 services:
   postgres:
-    image: postgres:18
+    build: .
     container_name: soacDB
     environment:
       POSTGRES_USER: Arrobo
@@ -9,12 +9,8 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
       - ./csv:/csv
-      - ./importar_csv.sh:/importar_csv.sh
-      - ./start.sh:/start.sh
       - pgdata:/var/lib/postgresql/data
-    entrypoint: ["/start.sh"]
 
 volumes:
   pgdata:

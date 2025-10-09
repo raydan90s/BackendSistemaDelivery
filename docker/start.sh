@@ -1,18 +1,15 @@
 #!/bin/bash
-set -e
 
-# Levanta Postgres en background
+# Ejecuta Postgres en segundo plano
 docker-entrypoint.sh postgres &
 
-# Espera a que Postgres esté listo
-until pg_isready -U "$POSTGRES_USER" -d "$POSTGRES_DB"; do
-  echo "Esperando a que Postgres esté listo..."
-  sleep 2
-done
+# Espera unos segundos a que Postgres esté listo
+echo "Esperando a que Postgres arranque..."
+sleep 10
 
-echo "Postgres listo, ejecutando importación de CSVs..."
-chmod +x /importar_csv.sh
+# Ejecuta la importación de CSV
+echo "Ejecutando importar_csv.sh..."
 /importar_csv.sh
 
-# Mantener contenedor corriendo
+# Mantiene el contenedor corriendo
 wait
