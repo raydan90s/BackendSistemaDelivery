@@ -13,6 +13,7 @@ services:
     volumes:
       - ./csv:/csv
       - pgdata:/var/lib/postgresql/data
+      - ./importar_csv.sh:/importar_csv.sh
 
   pgadmin:
     image: dpage/pgadmin4
