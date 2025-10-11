@@ -1,11 +1,16 @@
 const express = require('express');
+const cors = require('cors');
 const pool = require('./config/db');
 const pacienteRoutes = require('@routes/paciente/paciente.route');
-const usuario = require('@routes/usuario/usuario.route');
-
+const usuarioRoutes  = require('@routes/usuario/usuario.route');
 
 const app = express();
 app.use(express.json());
+app.use(cors({
+  origin: ['http://localhost:5173'], 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+  credentials: true, 
+}));
 
 app.get('/', async (req, res) => {
   const result = await pool.query('SELECT NOW()');
@@ -13,6 +18,6 @@ app.get('/', async (req, res) => {
 });
 
 app.use('/pacientes', pacienteRoutes);
-app.use('/login', usuario);
+app.use('/login', usuarioRoutes);
 
 module.exports = app;
