@@ -12,7 +12,7 @@ const getAllDoctores = async () => {
   // Generar nombre completo para cada doctor
   const doctores = rows.map(d => ({
     ...d,
-    nombreCompleto: [d.vapellido, d.vnombre].filter(Boolean).join(' ')
+    nombreCompleto: [d.vnombre, d.vapellido].filter(Boolean).join(' ')
   }));
 
   return doctores;
