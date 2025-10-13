@@ -17,37 +17,36 @@ const loginUsuario = async (req, res) => {
     // Generar token JWT
     const token = generateToken({
       usuario: {
-        vUsuario: user.vUsuario,
-        vNombres: user.vNombres,
-        vApellidos: user.vApellidos,
+        vUsuario: user.vusuario,
+        vNombres: user.vnombres,
+        vApellidos: user.vapellidos,
       },
       permisos: {
-        administracion: user.bAdministracion,
+        administracion: user.badministracion,
         odontologia: user.bodontologia,
-        facturacion: user.bFacturacion,
+        facturacion: user.bfacturacion,
         inventario: user.binventario,
-        contabilidad: user.bContabilidad,
-        marcaciones: user.bMarcaciones,
+        contabilidad: user.bcontabilidad,
+        marcaciones: user.bmarcaciones,
       },
     });
 
     res.status(200).json({
       success: true,
       usuario: {
-        vUsuario: user.vUsuario,
-        vNombres: user.vNombres,
-        vApellidos: user.vApellidos,
-        vDireccionFoto: user.vDireccionFoto,
-        bActivo: user.bActivo,
-        IdDoctor: user.IdDoctor,
+        vUsuario: user.vusuario,
+        vNombres: user.vnombres,
+        vApellidos: user.vapellidos,
+        bActivo: user.bactivo,
+        IdDoctor: user.Iddoctor,
       },
       permisos: {
-        administracion: user.bAdministracion,
+        administracion: user.badministracion,
         odontologia: user.bodontologia,
-        facturacion: user.bFacturacion,
+        facturacion: user.bfacturacion,
         inventario: user.binventario,
-        contabilidad: user.bContabilidad,
-        marcaciones: user.bMarcaciones,
+        contabilidad: user.bcontabilidad,
+        marcaciones: user.bmarcaciones,
       },
       token, 
     });
