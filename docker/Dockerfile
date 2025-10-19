@@ -1,21 +1,11 @@
-# Imagen base de Postgres
-FROM postgres:18
+FROM postgres:18.
 
-# Instala python3 y pip
-RUN apt-get update && apt-get install -y python3 python3-pip && rm -rf /var/lib/apt/lists/*
-
-# Copia tus scripts dentro del contenedor
 COPY start.sh /start.sh
-COPY importar_csv.sh /importar_csv.sh
+COPY estructura.sql /estructura.sql
+COPY datos.sql /datos.sql
 
-# Copia el init.sql al entrypoint de Postgres
-COPY init.sql /docker-entrypoint-initdb.d/init.sql
+RUN chmod +x /start.sh
 
-# Da permisos de ejecución a los scripts
-RUN chmod +x /start.sh /importar_csv.sh
-
-# Expone el puerto de Postgres
 EXPOSE 5432
 
-# El contenedor ejecutará start.sh al iniciar
 ENTRYPOINT ["/start.sh"]
