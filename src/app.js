@@ -2,14 +2,20 @@ const express = require('express');
 const cors = require('cors');
 const pool = require('./config/db');
 const pacienteRoutes = require('@routes/paciente/paciente.route');
-const doctorRoutes = require('@routes/doctor/doctor.route');
-const usuario = require('@routes/usuario/usuario.route');
+const usuarioRoutes  = require('@routes/usuario/usuario.route');
+const doctorRoutes   = require('@routes/doctor/doctor.route');
+const detalleTratamientoPacienteRoutes = require('@routes/detalleTratamientoPaciente/detalleTratamientoPaciente.routes');
 
 const app = express();
 
 // ✅ Middleware para permitir peticiones del frontend
 app.use(cors({ origin: 'http://localhost:5173' }));
 app.use(express.json());
+app.use(cors({
+  origin: ['http://localhost:5173'], 
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+  credentials: true, 
+}));
 
 // 🔹 Ruta de prueba para ver si el backend responde
 app.get('/', async (req, res) => {
@@ -23,7 +29,7 @@ app.get('/', async (req, res) => {
 });
 
 app.use('/pacientes', pacienteRoutes);
-app.use('/login', usuario);
+app.use('/login', usuarioRoutes);
 app.use('/doctores', doctorRoutes);
-
+app.use('/detalles', detalleTratamientoPacienteRoutes);
 module.exports = app;
