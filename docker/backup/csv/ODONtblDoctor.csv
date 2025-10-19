@@ -1,0 +1,56 @@
+﻿iIdDoctor,vNombre,vApellido,iIdCargo,bTemporal,cEstado
+1,Dr.Paulo,Arrobo Mateus,2,1,A
+2,Dra.Sandra,Arrobo Reinoso,2,1,A
+3,Dra. Ginna ,Paredes,2,1,I
+4,Dra.Ivonne,Rivera,2,1,A
+5,Dr.Jose Luis,Ortega Jaime,2,0,A
+6,Dra.Lucerito,Campos,2,1,I
+7,Dra.Erika,Suasnabas,2,1,A
+8,Dra.Margarita,Lopez Barbery,2,1,A
+9,Dra.Jenny,Boza,2,1,A
+10,Dra. Mayra,Cañarte,2,1,I
+11,Dra.Mariela,Lopez Carchi,2,0,A
+12,Dra. Lorena,Vargas,2,1,I
+13,Dra.Alexandra,Ruiz Alvarez ,2,0,A
+14,Dr.Manuel,Sanchez Laguna,2,0,A
+15,Dra.Annabelle,Velez Romero,2,0,A
+16,Dr. Luis Anibal,Tapia Razo,2,0,I
+17,Dra.Elsa,Veliz ,2,0,A
+18,Dra.Magdalena,Miranda Donoso,2,0,A
+20,Dr. Freddy,Ramos Andrade,2,0,I
+21,Dr. Luis Fernando,Erraez Cruz,2,0,I
+22,Dra.Maria Cristina,Flor Chavez,2,0,I
+23,Dra.Veronica ,Maroto Hidalgo,1,0,A
+24,Dr.Marcos,Benavides Aguilar,2,0,A
+25,Dr.Cristian,Bajaña Rugel,2,0,A
+26,Dra.Maria Cristina,Medina,2,0,A
+27,Dr.Milton,Martillo Alvarado,2,0,A
+28,Dra.Sttefy ,Coronel Quirola,2,0,A
+29,Dr.Miguel,Galarza Mora,2,0,A
+30,Dra.Carmen,Secaira Castro,2,0,A
+31,Dra.Liz,Goya Goya,2,0,A
+32,Dr.CiKuy,Fun Sang,2,0,A
+33,Dra.Maria Jose,Moran,1,0,A
+34,Dra.Pamela,Garcia,2,0,A
+35,Dra.Hellen,Veas Garcia,1,0,A
+36,Dr.Xavier,Alvarado,1,0,A
+37,Dra.Cristina,Arias Loayza,2,0,A
+38,Dr.Roberto,Chavez,2,0,A
+39,Dr.Xavier,Rivera Palacios,2,0,A
+40,Dr.Kenny,Sanchez Cevallos,2,0,A
+41,Dra.Cindy,Arauz Villao,2,0,A
+42,Dra.Ana,Loayza Romero,2,0,A
+43,Dra.Jessica,Bolaños Anzules,2,0,A
+44,Dra.Jessenia,Galvez Ortega,2,0,A
+45,Dr.Gabriel,Gomez Andrade,2,0,A
+46,Dra.Dennisse,Paredes Ramirez,2,0,A
+47,Dra.Angela,Victores Ponce,2,0,A
+48,Dr.Milton Rodrigo,Andrade Ponce,2,0,A
+49,Dra.Martha ,Quimi Ordoñez,1,0,A
+50,Dr.Michael,Olalla Collazo,2,0,A
+51,Dra.Allysson,Torres Robles,1,0,A
+52,Dra.Elena,Tapia Cerezo,2,0,A
+53,Dr. Manuel,Sanchez,2,0,I
+54,Dr.Carmelo Jose,Delgado Bello,2,0,A
+55,Dr.Enzo,Piña Aponte,1,0,A
+56,Dra.Marjorie,Herrera Boza,2,0,A

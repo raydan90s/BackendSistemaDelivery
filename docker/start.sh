@@ -3,13 +3,16 @@
 # Ejecuta Postgres en segundo plano
 docker-entrypoint.sh postgres &
 
-# Espera unos segundos a que Postgres esté listo
+# Espera a que Postgres esté listo
 echo "Esperando a que Postgres arranque..."
 sleep 10
 
-# Ejecuta la importación de CSV
-echo "Ejecutando importar_csv.sh..."
-/importar_csv.sh
+# Ejecuta la importación de SQL
+echo "Importando estructura.sql..."
+psql -U Arrobo -d SOAC -f /estructura.sql
+
+echo "Importando datos.sql..."
+psql -U Arrobo -d SOAC -f /datos.sql
 
 # Mantiene el contenedor corriendo
 wait

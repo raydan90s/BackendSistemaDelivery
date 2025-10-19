@@ -1,0 +1,402 @@
+﻿codespecialidad,desespecialidad,idCodTratamiento,codtratamiento,destratamiento,valordestra,coddetra,desdetra,valortrades
+1,Diagnostico,1,1.001,CONSULTA - APERTURA FICHA,10.00,01.001.0001,CONSULTA - APERTURA FICHA,10.00
+1,Diagnostico,2,1.002,CONSULTA Y EXAMINARLO,10.00,01.001.0002,CONSULTA Y EXAMINARLO,10.00
+1,Diagnostico,3,1.003,"CONSULTA, EXMINAR Y RX",15.00,01.001.0003,"CONSULTA, EXMINAR Y RX",15.00
+1,Diagnostico,4,1.004,T. E. POR DOLOR POR CARIES,20.00,01.001.0004,T. E. POR DOLOR POR CARIES,20.00
+1,Diagnostico,5,1.005,T. E.PERIODONTAL,20.00,01.001.0005,T. E.PERIODONTAL,20.00
+1,Diagnostico,6,1.006,T. E. POR FRACTURA,20.00,01.001.0006,T. E. POR FRACTURA,20.00
+1,Diagnostico,7,1.007,T. E. ADHESION CORONA Y POSTE,20.00,01.001.0007,T. E. ADHESION CORONA Y POSTE,20.00
+1,Diagnostico,8,1.008,T. E. REPARACION PROTESIS,20.00,01.001.0008,T. E. REPARACION PROTESIS,20.00
+1,Diagnostico,9,1.009,T. E. REPARACION PROTESIS PEGA DIENTE,20.00,01.001.0009,T. E. REPARACION PROTESIS PEGA DIENTE,20.00
+1,Diagnostico,10,1.010,T. E. TRAUMATISMO FERULIZACION,20.00,01.001.0010,T. E. TRAUMATISMO FERULIZACION,20.00
+1,Diagnostico,11,1.011,T. E. COLOCACION DE FERULA,40.00,01.001.0011,T. E. COLOCACION DE FERULA,40.00
+2,Operatoria,1,2.001,Resina Fotocurado simple oclusal,20.00,02.001.0001,Apertura de Cavidad y pasta o covial,10.00
+2,Operatoria,1,NULL,NULL,NULL,02.001.0002,Obturación definitiva y pulida,10.00
+2,Operatoria,2,2.002,Resina fotocurado simple borde incisal,20.00,02.002.0001,Preparación del diente,10.00
+2,Operatoria,2,NULL,NULL,NULL,02.002.0002,Restauración y pulida,10.00
+2,Operatoria,3,2.003,Resina fotocurado simple cuello,20.00,02.003.0001,Preparación del diente,10.00
+2,Operatoria,3,NULL,NULL,NULL,02.003.0002,Restauración y pulida,10.00
+2,Operatoria,4,2.004,Resina fotocurado simple palatina,20.00,02.004.0001,Apertura covial o pasta,10.00
+2,Operatoria,4,NULL,NULL,NULL,02.004.0002,Obturación definitiva y pulida,10.00
+2,Operatoria,5,2.005,Resina fotocurado simple mesial y distal,20.00,02.005.0001,Apertura covial o pasta,10.00
+2,Operatoria,5,NULL,NULL,NULL,02.005.0002,Obturación definitiva y pulida,10.00
+2,Operatoria,6,2.006,Resina fotocurado simple vestibular,20.00,02.006.0001,Preparación del diente,10.00
+2,Operatoria,6,NULL,NULL,NULL,02.006.0002,Restauración,5.00
+2,Operatoria,6,NULL,NULL,NULL,02.006.0003,Pulida,5.00
+2,Operatoria,7,2.007,Amalgama simple lingual,20.00,02.007.0001,Apertura de Cavidad,5.00
+2,Operatoria,7,NULL,NULL,NULL,02.007.0002,Base de la cavidad,5.00
+2,Operatoria,7,NULL,NULL,NULL,02.007.0003,Obturación definitiva,5.00
+2,Operatoria,7,NULL,NULL,NULL,02.007.0004,Pulida,5.00
+2,Operatoria,8,2.008,Amalgama simple palatina,20.00,02.008.0001,Apertura de Cavidad,5.00
+2,Operatoria,8,NULL,NULL,NULL,02.008.0002,Base de la cavidad,5.00
+2,Operatoria,8,NULL,NULL,NULL,02.008.0003,Obturación definitiva,5.00
+2,Operatoria,8,NULL,NULL,NULL,02.008.0004,Pulida,5.00
+2,Operatoria,9,2.009,Amalgama simple Mesial,20.00,02.009.0001,Apertura de Cavidad,5.00
+2,Operatoria,9,NULL,NULL,NULL,02.009.0002,Base de la cavidad,5.00
+2,Operatoria,9,NULL,NULL,NULL,02.009.0003,Obturación definitiva,5.00
+2,Operatoria,9,NULL,NULL,NULL,02.009.0004,Pulida,5.00
+2,Operatoria,10,2.010,Amalgama simple Oclusal,20.00,02.010.0001,Apertura de Cavidad,5.00
+2,Operatoria,10,NULL,NULL,NULL,02.010.0002,Base de la cavidad,5.00
+2,Operatoria,10,NULL,NULL,NULL,02.010.0003,Obturación definitiva,5.00
+2,Operatoria,10,NULL,NULL,NULL,02.010.0004,Pulida,5.00
+2,Operatoria,11,2.011,Amalgama simple Distal,20.00,02.011.0001,Apertura de Cavidad,5.00
+2,Operatoria,11,NULL,NULL,NULL,02.011.0002,Base de la cavidad,5.00
+2,Operatoria,11,NULL,NULL,NULL,02.011.0003,Obturación definitiva,5.00
+2,Operatoria,11,NULL,NULL,NULL,02.011.0004,Pulida,5.00
+2,Operatoria,12,2.012,Amalgama simple Vestibular,20.00,02.012.0001,Apertura de Cavidad,5.00
+2,Operatoria,12,NULL,NULL,NULL,02.012.0002,Base de la cavidad,5.00
+2,Operatoria,12,NULL,NULL,NULL,02.012.0003,Obturación definitiva,5.00
+2,Operatoria,12,NULL,NULL,NULL,02.012.0004,Pulida,5.00
+2,Operatoria,13,2.013,Amalgama compuesta,25.00,02.013.0001,Apertura de Cavidad,10.00
+2,Operatoria,13,NULL,NULL,NULL,02.013.0002,Base de la cavidad,5.00
+2,Operatoria,13,NULL,NULL,NULL,02.013.0003,Obturación definitiva,5.00
+2,Operatoria,13,NULL,NULL,NULL,02.013.0004,Pulida,5.00
+2,Operatoria,14,2.014,Amalgama compleja,40.00,02.014.0001,Apertura de Cavidad,10.00
+2,Operatoria,14,NULL,NULL,NULL,02.014.0002,Base de la cavidad,10.00
+2,Operatoria,14,NULL,NULL,NULL,02.014.0003,Obturación definitiva,10.00
+2,Operatoria,14,NULL,NULL,NULL,02.014.0004,Pulida,10.00
+2,Operatoria,15,2.015,Amalgama atipica,40.00,02.015.0001,Apertura de Cavidad,10.00
+2,Operatoria,15,NULL,NULL,NULL,02.015.0002,Base de la cavidad,10.00
+2,Operatoria,15,NULL,NULL,NULL,02.015.0003,Obturación definitiva,10.00
+2,Operatoria,15,NULL,NULL,NULL,02.015.0004,Pulida,10.00
+2,Operatoria,16,2.016,Incrustación Metalica,80.00,02.016.0001,Tallado en la cavidad,20.00
+2,Operatoria,16,NULL,NULL,NULL,02.016.0002,Toma de impresión,20.00
+2,Operatoria,16,NULL,NULL,NULL,02.016.0003,prueba,20.00
+2,Operatoria,16,NULL,NULL,NULL,02.016.0004,Cementación de incrustación,20.00
+2,Operatoria,17,2.017,Incrustación Resina Indirecta Simple,40.00,02.017.0001,Tallado en la cavidad,10.00
+2,Operatoria,17,NULL,NULL,NULL,02.017.0002,Toma de impresión,10.00
+2,Operatoria,17,NULL,NULL,NULL,02.017.0003,Provisional,10.00
+2,Operatoria,17,NULL,NULL,NULL,02.017.0004,Prueba,5.00
+2,Operatoria,17,NULL,NULL,NULL,02.017.0005,Cementación y pulida de incrustación,5.00
+2,Operatoria,18,2.018,Temporaria IRM,10.00,02.018.0001,Apertura de la cavidad,5.00
+2,Operatoria,18,NULL,NULL,NULL,02.018.0002,Obturación IRM,5.00
+2,Operatoria,19,2.019,Temporaria lonomero de vidrio,20.00,02.019.0001,Apertura de la cavidad,10.00
+2,Operatoria,19,NULL,NULL,NULL,02.019.0002,Obturación Lonomero de vidrio,10.00
+2,Operatoria,20,2.020,Temporaria con Fuji IX,20.00,02.020.0001,Apertura de la cavidad,10.00
+2,Operatoria,20,NULL,NULL,NULL,02.020.0002,Obturación Fuji IX,10.00
+2,Operatoria,21,2.021,Resina autopolimerizable,20.00,02.021.0001,Apertura de la cavidad,10.00
+2,Operatoria,21,NULL,NULL,NULL,02.021.0002,Base de la cavidad,5.00
+2,Operatoria,21,NULL,NULL,NULL,02.021.0003,Obturación definitiva,5.00
+2,Operatoria,22,2.022,Sellantes y cariostatico,20.00,02.022.0001,Preparación del diente,5.00
+2,Operatoria,22,NULL,NULL,NULL,02.022.0002,Aplicación de cariostatico,5.00
+2,Operatoria,22,NULL,NULL,NULL,02.022.0003,aplicación de sellante,5.00
+2,Operatoria,22,NULL,NULL,NULL,02.022.0004,Pulida,5.00
+2,Operatoria,23,2.023,Incrustación Resina Indirecta Compuesta,60.00,02.023.0001,Tallado de la cavidad,20.00
+2,Operatoria,23,NULL,NULL,NULL,02.023.0002,Toma de impresión,10.00
+2,Operatoria,23,NULL,NULL,NULL,02.023.0003,Provisional,10.00
+2,Operatoria,23,NULL,NULL,NULL,02.023.0004,prueba,10.00
+2,Operatoria,23,NULL,NULL,NULL,02.023.0005,Cementación y pulida de incrustación,10.00
+3,Estetica,1,3.001,Blanqueamiento Maxilar Superior,100.00,03.001.0001,Primera Sesion,40.00
+3,Estetica,1,NULL,NULL,NULL,03.001.0002,Segunda Sesion,40.00
+3,Estetica,1,NULL,NULL,NULL,03.001.0003,Tercera Sesion,20.00
+3,Estetica,2,3.002,Blanqueamiento Maxilar Inferior,100.00,03.002.0001,Primera Sesion,40.00
+3,Estetica,2,NULL,NULL,NULL,03.002.0002,Segunda Sesion,40.00
+3,Estetica,2,NULL,NULL,NULL,03.002.0003,Tercera Sesion,20.00
+3,Estetica,3,3.003,Blanqueamiento Adicional,20.00,03.003.0001,Unica Sesion,20.00
+3,Estetica,4,3.004,Decromia en dientes con tratamiento de conducto,40.00,03.004.0001,Decromia en dientes Primera Sesion,20.00
+3,Estetica,4,NULL,NULL,NULL,03.004.0002,Decromia en dientes Segunda Sesion,10.00
+3,Estetica,4,NULL,NULL,NULL,03.004.0003,Decromia en dientes Tercera Sesion,10.00
+3,Estetica,5,3.005,Carillas directas clase TDH,150.00,03.005.0001,Preparación del diente,100.00
+3,Estetica,5,NULL,NULL,NULL,03.005.0002,Carilla Definitiva,25.00
+3,Estetica,5,NULL,NULL,NULL,03.005.0003,Pulida de carillas,25.00
+3,Estetica,6,3.006,Carillas directas ultradent,80.00,03.006.0001,Preparación del diente,40.00
+3,Estetica,6,NULL,NULL,NULL,03.006.0002,Carilla Definitiva,20.00
+3,Estetica,6,NULL,NULL,NULL,03.006.0003,Pulida de carillas,20.00
+3,Estetica,7,3.007,Carillas directas 3m y otros,50.00,03.007.0001,Preparación del diente,25.00
+3,Estetica,7,NULL,NULL,NULL,03.007.0002,Carilla Definitiva,20.00
+3,Estetica,7,NULL,NULL,NULL,03.007.0003,Pulida de carillas,5.00
+3,Estetica,8,3.008,Carillas para modificar la posición de diente,80.00,03.008.0001,Preparación del diente,40.00
+3,Estetica,8,NULL,NULL,NULL,03.008.0002,Carilla Definitiva,20.00
+3,Estetica,8,NULL,NULL,NULL,03.008.0003,Pulida de carillas,20.00
+3,Estetica,9,3.009,Reparación de Diastemas,40.00,03.009.0001,Preparación del diente,20.00
+3,Estetica,9,NULL,NULL,NULL,03.009.0002,Carilla Definitiva,10.00
+3,Estetica,9,NULL,NULL,NULL,03.009.0003,Pulida de carillas,10.00
+3,Estetica,10,3.010,Reparacion de bordes incisales,20.00,03.010.0001,Preparación del diente,10.00
+3,Estetica,10,NULL,NULL,NULL,03.010.0002,Reparación del Borde,5.00
+3,Estetica,10,NULL,NULL,NULL,03.010.0003,termino y pulida,5.00
+3,Estetica,11,3.011,Carillas indirectas de ceramica,300.00,03.011.0001,Impresión para estudio,10.00
+3,Estetica,11,NULL,NULL,NULL,03.011.0002,Preparación del diente,200.00
+3,Estetica,11,NULL,NULL,NULL,03.011.0003,Toma de impresión,20.00
+3,Estetica,11,NULL,NULL,NULL,03.011.0004,Provisionales,20.00
+3,Estetica,11,NULL,NULL,NULL,03.011.0005,Prueba de Carillas definitivas,20.00
+3,Estetica,11,NULL,NULL,NULL,03.011.0006,Cementación de carillas definitivas,20.00
+3,Estetica,11,NULL,NULL,NULL,03.011.0007,Pulida,10.00
+3,Estetica,12,3.012,Carillas indirectas de resina,80.00,03.012.0001,Preparación del diente,20.00
+3,Estetica,12,NULL,NULL,NULL,03.012.0002,Toma de impresión,20.00
+3,Estetica,12,NULL,NULL,NULL,03.012.0003,Provisionales,20.00
+3,Estetica,12,NULL,NULL,NULL,03.012.0004,Cementación y pulida,20.00
+3,Estetica,13,3.013,Retoque de carillas directas,20.00,03.013.0001,Preparación del diente,10.00
+3,Estetica,13,NULL,NULL,NULL,03.013.0002,Restauración definitiva,10.00
+3,Estetica,14,3.014,Reparación de carillas indirectas de Resinas,20.00,03.013.0001,Preparación del diente,10.00
+3,Estetica,13,NULL,NULL,NULL,03.013.0002,Restauración definitiva,10.00
+3,Estetica,15,3.015,Reparación de carillas indirectas de Ceramica,150.00,03.014.0001,Preparación del diente,100.00
+3,Estetica,14,NULL,NULL,NULL,03.014.0002,Impresión,20.00
+3,Estetica,14,NULL,NULL,NULL,03.014.0003,Provisional,20.00
+3,Estetica,14,NULL,NULL,NULL,03.014.0004,Prueba,5.00
+3,Estetica,14,NULL,NULL,NULL,03.014.0005,Cementación,5.00
+4,Cirugia,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+5,Periodoncia,1,5.001,Limpieza simple y fluorización,20.00,05.001.0001,Limpieza simple y fluorización 1era. Sesión,20.00
+5,Periodoncia,2,5.002,Limpieza completa,20.00,05.002.0001,Limpieza completa 1era. Sesión,10.00
+5,Periodoncia,2,NULL,NULL,NULL,05.002.0002,Limpieza completa 2da. Sesión,10.00
+5,Periodoncia,3,5.003,Limpieza completa Plus,40.00,05.003.0001,Limpieza completa Plus 1era. Sesión,20.00
+5,Periodoncia,3,NULL,NULL,NULL,05.003.0002,Limpieza completa Plus 2da. Sesión,10.00
+5,Periodoncia,3,NULL,NULL,NULL,05.003.0003,Limpieza completa Plus 3era. Sesión,10.00
+5,Periodoncia,4,5.004,Tratamiento de encias sangrantes,50.00,05.004.0001,Limpieza General,25.00
+5,Periodoncia,4,NULL,NULL,NULL,05.004.0002,Tratamiento con clorixidina,10.00
+5,Periodoncia,4,NULL,NULL,NULL,05.004.0003,Tratamiento de encias sangrantes 2da. Sesión,10.00
+5,Periodoncia,4,NULL,NULL,NULL,05.004.0004,Tratamiento de encias sangrantes 3era. Sesión,5.00
+5,Periodoncia,5,5.005,Ferulización de dientes por traumas,50.00,05.005.0001,limpieza de la zona,NULL
+5,Periodoncia,5,NULL,NULL,NULL,05.005.0002,Preparación del diente,NULL
+5,Periodoncia,5,NULL,NULL,NULL,05.005.0003,Ferulización ,NULL
+5,Periodoncia,5,NULL,NULL,NULL,05.005.0004,Pulida,NULL
+6,Ortodoncia,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+7,Endodoncia,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+8,Protesis Removible,1,8.001,"Eiker de 1.3 pieza (Acrilico, Biotones, Duratone, ",150.00,8.001.0001,Preparación del espacio,NULL
+8,Protesis Removible,1,NULL,NULL,NULL,8.001.0002,Impresión para estudio,NULL
+8,Protesis Removible,1,NULL,NULL,NULL,8.001.0003,Provisional,NULL
+8,Protesis Removible,1,NULL,NULL,NULL,8.001.0004,Prueba,NULL
+8,Protesis Removible,1,NULL,NULL,NULL,8.001.0005,Colocación,NULL
+8,Protesis Removible,1,NULL,NULL,NULL,8.001.0006,Ajuste,NULL
+8,Protesis Removible,2,8.002,Eiker 4 o mas piezas,180.00,8.002.0001,Preparación del espacio,NULL
+8,Protesis Removible,2,NULL,NULL,NULL,8.002.0002,Impresión para estudio,NULL
+8,Protesis Removible,2,NULL,NULL,NULL,8.002.0003,Provisional,NULL
+8,Protesis Removible,2,NULL,NULL,NULL,8.002.0004,Prueba,NULL
+8,Protesis Removible,2,NULL,NULL,NULL,8.002.0005,Colocación,NULL
+8,Protesis Removible,2,NULL,NULL,NULL,8.002.0006,Ajuste,NULL
+8,Protesis Removible,3,8.003,"Eiker de metal de 1-4 piezas (Duratone, Biotore, i",180.00,8.003.0001,Preparación del espacio,NULL
+8,Protesis Removible,3,NULL,NULL,NULL,8.003.0002,Impresión para estudio,NULL
+8,Protesis Removible,3,NULL,NULL,NULL,8.003.0003,Provisional,NULL
+8,Protesis Removible,3,NULL,NULL,NULL,8.003.0004,Prueba,NULL
+8,Protesis Removible,3,NULL,NULL,NULL,8.003.0005,Colocación,NULL
+8,Protesis Removible,3,NULL,NULL,NULL,8.003.0006,Ajuste,NULL
+8,Protesis Removible,4,8.004,Eiker Metalico con dientes de porcelana de 1 pieza,180.00,8.004.0001,Preparación del espacio,NULL
+8,Protesis Removible,4,NULL,NULL,NULL,8.004.0002,Impresión para estudio,NULL
+8,Protesis Removible,4,NULL,NULL,NULL,8.004.0003,Provisional,NULL
+8,Protesis Removible,4,NULL,NULL,NULL,8.004.0004,Prueba,NULL
+8,Protesis Removible,4,NULL,NULL,NULL,8.004.0005,Colocación,NULL
+8,Protesis Removible,4,NULL,NULL,NULL,8.004.0006,Ajuste,NULL
+8,Protesis Removible,5,8.005,Eiker Metalico con dientes de porcelana de 2 - 4 p,250.00,8.005.0001,Preparación del espacio,NULL
+8,Protesis Removible,5,NULL,NULL,NULL,8.005.0002,Impresión para estudio,NULL
+8,Protesis Removible,5,NULL,NULL,NULL,8.005.0003,Provisional,NULL
+8,Protesis Removible,5,NULL,NULL,NULL,8.005.0004,Prueba,NULL
+8,Protesis Removible,5,NULL,NULL,NULL,8.005.0005,Colocación,NULL
+8,Protesis Removible,5,NULL,NULL,NULL,8.005.0006,Ajuste,NULL
+8,Protesis Removible,6,8.006,Protesis parcial acrilico de 2 - 4 piezas de (Acri,150.00,8.006.0001,Preparación del espacio,NULL
+8,Protesis Removible,6,NULL,NULL,NULL,8.006.0002,Impresión para estudio,NULL
+8,Protesis Removible,6,NULL,NULL,NULL,8.006.0003,Provisional,NULL
+8,Protesis Removible,6,NULL,NULL,NULL,8.006.0004,Prueba,NULL
+8,Protesis Removible,6,NULL,NULL,NULL,8.006.0005,Colocación,NULL
+8,Protesis Removible,6,NULL,NULL,NULL,8.006.0006,Ajuste,NULL
+8,Protesis Removible,7,8.007,Protesis parcial acrilico de 2 - 6 piezas con dien,180.00,8.007.0001,Preparación del espacio,NULL
+8,Protesis Removible,7,NULL,NULL,NULL,8.007.0002,Impresión para estudio,NULL
+8,Protesis Removible,7,NULL,NULL,NULL,8.007.0003,Provisional,NULL
+8,Protesis Removible,7,NULL,NULL,NULL,8.007.0004,Prueba,NULL
+8,Protesis Removible,7,NULL,NULL,NULL,8.007.0005,Colocación,NULL
+8,Protesis Removible,7,NULL,NULL,NULL,8.007.0006,Ajuste,NULL
+8,Protesis Removible,8,8.008,Protesis de Metal de 4 - 6 piezas con dientes de (,280.00,8.008.0001,Preparación del espacio,NULL
+8,Protesis Removible,8,NULL,NULL,NULL,8.008.0002,Impresión para estudio,NULL
+8,Protesis Removible,8,NULL,NULL,NULL,8.008.0003,Provisional,NULL
+8,Protesis Removible,8,NULL,NULL,NULL,8.008.0004,Prueba,NULL
+8,Protesis Removible,8,NULL,NULL,NULL,8.008.0005,Colocación,NULL
+8,Protesis Removible,8,NULL,NULL,NULL,8.008.0006,Ajuste,NULL
+8,Protesis Removible,9,8.009,Protesis de Metal de 4 - 6 piezas con dientes de p,350.00,8.009.0001,Preparación del espacio,NULL
+8,Protesis Removible,9,NULL,NULL,NULL,8.009.0002,Impresión para estudio,NULL
+8,Protesis Removible,9,NULL,NULL,NULL,8.009.0003,Provisional,NULL
+8,Protesis Removible,9,NULL,NULL,NULL,8.009.0004,Prueba,NULL
+8,Protesis Removible,9,NULL,NULL,NULL,8.009.0005,Colocación,NULL
+8,Protesis Removible,9,NULL,NULL,NULL,8.009.0006,Ajuste,NULL
+8,Protesis Removible,10,8.010,"Protesis Total acrilico (Biotone, Duratone, Acrili",180.00,8.010.0001,Preparación del espacio,NULL
+8,Protesis Removible,10,NULL,NULL,NULL,8.010.0002,Impresión para estudio,NULL
+8,Protesis Removible,10,NULL,NULL,NULL,8.010.0003,Provisional,NULL
+8,Protesis Removible,10,NULL,NULL,NULL,8.010.0004,Prueba,NULL
+8,Protesis Removible,10,NULL,NULL,NULL,8.010.0005,Colocación,NULL
+8,Protesis Removible,10,NULL,NULL,NULL,8.010.0006,Ajuste,NULL
+8,Protesis Removible,11,8.011,Protesis Total acrilico con dientes de porcelana,350.00,8.011.0001,Preparación del espacio,NULL
+8,Protesis Removible,11,NULL,NULL,NULL,8.011.0002,Impresión para estudio,NULL
+8,Protesis Removible,11,NULL,NULL,NULL,8.011.0003,Provisional,NULL
+8,Protesis Removible,11,NULL,NULL,NULL,8.011.0004,Prueba,NULL
+8,Protesis Removible,11,NULL,NULL,NULL,8.011.0005,Colocación,NULL
+8,Protesis Removible,11,NULL,NULL,NULL,8.011.0006,Ajuste,NULL
+8,Protesis Removible,12,8.012,"Protesis Metal Removible de 2-8 piezas (Duratone, ",300.00,8.012.0001,Preparación del espacio,NULL
+8,Protesis Removible,12,NULL,NULL,NULL,8.012.0002,Impresión para estudio,NULL
+8,Protesis Removible,12,NULL,NULL,NULL,8.012.0003,Provisional,NULL
+8,Protesis Removible,12,NULL,NULL,NULL,8.012.0004,Prueba,NULL
+8,Protesis Removible,12,NULL,NULL,NULL,8.012.0005,Colocación,NULL
+8,Protesis Removible,12,NULL,NULL,NULL,8.012.0006,Ajuste,NULL
+8,Protesis Removible,13,8.013,Protesis Metal Removible de 2-6 piezas de porcelan,400.00,8.013.0001,Preparación del espacio,NULL
+8,Protesis Removible,13,NULL,NULL,NULL,8.013.0002,Impresión para estudio,NULL
+8,Protesis Removible,13,NULL,NULL,NULL,8.013.0003,Provisional,NULL
+8,Protesis Removible,13,NULL,NULL,NULL,8.013.0004,Prueba,NULL
+8,Protesis Removible,13,NULL,NULL,NULL,8.013.0005,Colocación,NULL
+8,Protesis Removible,13,NULL,NULL,NULL,8.013.0006,Ajuste,NULL
+8,Protesis Removible,14,8.014,"Eiker Flex de 1-4 piezas (Acrilico, Biotone, Durat",180.00,8.014.0001,Preparación del espacio,NULL
+8,Protesis Removible,14,NULL,NULL,NULL,8.014.0002,Impresión para estudio,NULL
+8,Protesis Removible,14,NULL,NULL,NULL,8.014.0003,Provisional,NULL
+8,Protesis Removible,14,NULL,NULL,NULL,8.014.0004,Prueba,NULL
+8,Protesis Removible,14,NULL,NULL,NULL,8.014.0005,Colocación,NULL
+8,Protesis Removible,14,NULL,NULL,NULL,8.014.0006,Ajuste,NULL
+8,Protesis Removible,15,8.015,Eiker Flex de 1-4 piezas de porcelana,300.00,8.015.0001,Preparación del espacio,NULL
+8,Protesis Removible,15,NULL,NULL,NULL,8.015.0002,Impresión para estudio,NULL
+8,Protesis Removible,15,NULL,NULL,NULL,8.015.0003,Provisional,NULL
+8,Protesis Removible,15,NULL,NULL,NULL,8.015.0004,Prueba,NULL
+8,Protesis Removible,15,NULL,NULL,NULL,8.015.0005,Colocación,NULL
+8,Protesis Removible,15,NULL,NULL,NULL,8.015.0006,Ajuste,NULL
+8,Protesis Removible,16,8.016,"Protesis parcial Flex 4-6 piezas (Biotone, Duraton",250.00,8.016.0001,Preparación del espacio,NULL
+8,Protesis Removible,16,NULL,NULL,NULL,8.016.0002,Impresión para estudio,NULL
+8,Protesis Removible,16,NULL,NULL,NULL,8.016.0003,Provisional,NULL
+8,Protesis Removible,16,NULL,NULL,NULL,8.016.0004,Prueba,NULL
+8,Protesis Removible,16,NULL,NULL,NULL,8.016.0005,Colocación,NULL
+8,Protesis Removible,16,NULL,NULL,NULL,8.016.0006,Ajuste,NULL
+8,Protesis Removible,17,8.017,Protesis parcial Flex 4-6 con dientes de porcelana,300.00,8.017.0001,Preparación del espacio,NULL
+8,Protesis Removible,17,NULL,NULL,NULL,8.017.0002,Impresión para estudio,NULL
+8,Protesis Removible,17,NULL,NULL,NULL,8.017.0003,Provisional,NULL
+8,Protesis Removible,17,NULL,NULL,NULL,8.017.0004,Prueba,NULL
+8,Protesis Removible,17,NULL,NULL,NULL,8.017.0005,Colocación,NULL
+8,Protesis Removible,17,NULL,NULL,NULL,8.017.0006,Ajuste,NULL
+8,Protesis Removible,18,8.018,"Protesis Total Flex con dientes (Acrilico, Duraton",500.00,8.018.0001,Preparación del espacio,NULL
+8,Protesis Removible,18,NULL,NULL,NULL,8.018.0002,Impresión para estudio,NULL
+8,Protesis Removible,18,NULL,NULL,NULL,8.018.0003,Provisional,NULL
+8,Protesis Removible,18,NULL,NULL,NULL,8.018.0004,Prueba,NULL
+8,Protesis Removible,18,NULL,NULL,NULL,8.018.0005,Colocación,NULL
+8,Protesis Removible,18,NULL,NULL,NULL,8.018.0006,Ajuste,NULL
+8,Protesis Removible,19,8.019,Protesis Total Flex con dientes de porcenala,500.00,8.019.0001,Preparación del espacio,NULL
+8,Protesis Removible,19,NULL,NULL,NULL,8.019.0002,Impresión para estudio,NULL
+8,Protesis Removible,19,NULL,NULL,NULL,8.019.0003,Provisional,NULL
+8,Protesis Removible,19,NULL,NULL,NULL,8.019.0004,Prueba,NULL
+8,Protesis Removible,19,NULL,NULL,NULL,8.019.0005,Colocación,NULL
+8,Protesis Removible,19,NULL,NULL,NULL,8.019.0006,Ajuste,NULL
+8,Protesis Removible,20,8.020,Repetición de Protesis Total-parcial,50.00,8.020.0001,Impresión para estudio,NULL
+8,Protesis Removible,20,NULL,NULL,NULL,8.020.0002,Pruebas,NULL
+8,Protesis Removible,20,NULL,NULL,NULL,8.020.0003,Colocación,NULL
+8,Protesis Removible,20,NULL,NULL,NULL,8.020.0004,Ajuste,NULL
+8,Protesis Removible,21,8.021,Aumento de un diente en protesis movible,20.00,8.021.0001,Preparar la protesis,NULL
+8,Protesis Removible,21,NULL,NULL,NULL,8.021.0002,Impresión para estudio,NULL
+8,Protesis Removible,21,NULL,NULL,NULL,8.021.0003,Colocar,NULL
+8,Protesis Removible,21,NULL,NULL,NULL,8.021.0004,Ajuste,NULL
+8,Protesis Removible,22,8.022,Reparación de la protesis fracturada,20.00,8.022.0001,Impresión para estudio,NULL
+8,Protesis Removible,22,NULL,NULL,NULL,8.022.0002,Colocación,NULL
+8,Protesis Removible,22,NULL,NULL,NULL,8.022.0003,ajuste,NULL
+8,Protesis Removible,23,8.023,Reparación de gandros,40.00,8.023.0001,Impresión para estudio,NULL
+8,Protesis Removible,23,NULL,NULL,NULL,8.023.0002,Colocación,NULL
+8,Protesis Removible,23,NULL,NULL,NULL,8.023.0003,ajuste,NULL
+8,Protesis Removible,24,8.024,Cambio de dientes anteriores en protesis de acrili,150.00,8.024.0001,Impresión para estudio,NULL
+8,Protesis Removible,24,NULL,NULL,NULL,8.024.0002,Prueba,NULL
+8,Protesis Removible,24,NULL,NULL,NULL,8.024.0003,Colocación,NULL
+8,Protesis Removible,24,NULL,NULL,NULL,8.024.0004,Ajuste,NULL
+8,Protesis Removible,25,8.025,Cambios de dientes en removible,180.00,8.025.0001,Impresión para estudio,NULL
+8,Protesis Removible,25,NULL,NULL,NULL,8.025.0002,Prueba,NULL
+8,Protesis Removible,25,NULL,NULL,NULL,8.025.0003,Colocación,NULL
+8,Protesis Removible,25,NULL,NULL,NULL,8.025.0004,Ajuste,NULL
+8,Protesis Removible,26,8.026,Aumento de diente en removible directo,20.00,8.026.0001,Impresión para estudio,NULL
+8,Protesis Removible,26,NULL,NULL,NULL,8.026.0002,Prueba,NULL
+8,Protesis Removible,26,NULL,NULL,NULL,8.026.0003,Colocación,NULL
+8,Protesis Removible,26,NULL,NULL,NULL,8.026.0004,Ajuste,NULL
+8,Protesis Removible,27,8.027,Aumento de diente en removible indirecto,30.00,8.027.0001,Impresión para estudio,NULL
+8,Protesis Removible,27,NULL,NULL,NULL,8.027.0002,Prueba,NULL
+8,Protesis Removible,27,NULL,NULL,NULL,8.027.0003,Colocación,NULL
+8,Protesis Removible,27,NULL,NULL,NULL,8.027.0004,Ajuste,NULL
+8,Protesis Removible,28,8.028,Rebace de protesis totales indirectas,50.00,8.028.0001,Impresión,NULL
+8,Protesis Removible,28,NULL,NULL,NULL,8.028.0002,Adaptación,NULL
+8,Protesis Removible,29,8.029,Rebace de protesis totales en cucho,150.00,8.029.0001,Impresión,NULL
+8,Protesis Removible,29,NULL,NULL,NULL,8.029.0002,Adaprtación,NULL
+8,Protesis Removible,30,8.030,Rebace de protesis totales en cucho Directo,50.00,8.030.0001,Preparación de la protesis,NULL
+8,Protesis Removible,30,NULL,NULL,NULL,8.030.0002,Adaptación de la protesis,NULL
+8,Protesis Removible,30,NULL,NULL,NULL,8.030.0003,Ajuste y pulida,NULL
+8,Protesis Removible,31,8.031,Rebace de protesis totales o parciales Directo,50.00,8.031.0001,Preparación de la protesis,NULL
+8,Protesis Removible,31,NULL,NULL,NULL,8.031.0002,Adaptación de la protesis,NULL
+8,Protesis Removible,31,NULL,NULL,NULL,8.031.0003,Ajuste y pulida,NULL
+8,Protesis Removible,32,8.032,Plato mio relajador de acetato # 20,30.00,8.032.0001,Impresión,NULL
+8,Protesis Removible,32,NULL,NULL,NULL,8.032.0002,Prueba,NULL
+8,Protesis Removible,32,NULL,NULL,NULL,8.032.0003,Colocación,NULL
+8,Protesis Removible,33,8.033,Plato mio relajador de acetato # 60,40.00,8.033.0001,Impresión,NULL
+8,Protesis Removible,33,NULL,NULL,NULL,8.033.0002,Prueba,NULL
+8,Protesis Removible,33,NULL,NULL,NULL,8.033.0003,Colocación,NULL
+8,Protesis Removible,34,8.034,Plato mio relajador de caucho,30.00,8.034.0001,Impresión,NULL
+8,Protesis Removible,34,NULL,NULL,NULL,8.034.0002,Prueba,NULL
+8,Protesis Removible,34,NULL,NULL,NULL,8.034.0003,Colocación,NULL
+9,Protesis Fija,1,9.001,Corona porcelana con metal,180.00,09.001.0001,Modelo estudio,10.00
+9,Protesis Fija,1,NULL,NULL,NULL,09.001.0002,Tallado de diente,100.00
+9,Protesis Fija,1,NULL,NULL,NULL,09.001.0003,Tomar impresión,20.00
+9,Protesis Fija,1,NULL,NULL,NULL,09.001.0004,Provisional,20.00
+9,Protesis Fija,1,NULL,NULL,NULL,09.001.0005,Prueba,20.00
+9,Protesis Fija,1,NULL,NULL,NULL,09.001.0006,Cementar y pulir,10.00
+9,Protesis Fija,2,9.002,Corona de porcelana sin metal ,300.00,09.002.0001,Modelo estudio,20.00
+9,Protesis Fija,2,NULL,NULL,NULL,09.002.0002,Preparación del diente,200.00
+9,Protesis Fija,2,NULL,NULL,NULL,09.002.0003,Toma de impresión,20.00
+9,Protesis Fija,2,NULL,NULL,NULL,09.002.0004,Provisional,20.00
+9,Protesis Fija,2,NULL,NULL,NULL,09.002.0005,Prueba de corona definitiva,20.00
+9,Protesis Fija,2,NULL,NULL,NULL,09.002.0006,cementación de corona y pulida,20.00
+9,Protesis Fija,3,9.003,Corona de acrilico,100.00,09.003.0001,Preparación del diente,20.00
+9,Protesis Fija,3,NULL,NULL,NULL,09.003.0002,Impresión del diente,20.00
+9,Protesis Fija,3,NULL,NULL,NULL,09.003.0003,Provisional,20.00
+9,Protesis Fija,3,NULL,NULL,NULL,09.003.0004,Prueba de corona,20.00
+9,Protesis Fija,3,NULL,NULL,NULL,09.003.0005,cementación de corona y pulida,20.00
+9,Protesis Fija,4,9.004,Poste Directo,50.00,09.004.0001,RX,10.00
+9,Protesis Fija,4,NULL,NULL,NULL,09.004.0002,Preparación del diente,20.00
+9,Protesis Fija,4,NULL,NULL,NULL,09.004.0003,Cementación del poste,10.00
+9,Protesis Fija,4,NULL,NULL,NULL,09.004.0004,pulida,10.00
+9,Protesis Fija,5,9.005,Poste Indirecto,50.00,09.005.0001,RX,5.00
+9,Protesis Fija,5,NULL,NULL,NULL,09.005.0002,Preparación del diente,20.00
+9,Protesis Fija,5,NULL,NULL,NULL,09.005.0003,Toma de impresión,10.00
+9,Protesis Fija,5,NULL,NULL,NULL,09.005.0004,Provisional,5.00
+9,Protesis Fija,5,NULL,NULL,NULL,09.005.0005,Prueba de Poste,5.00
+9,Protesis Fija,5,NULL,NULL,NULL,09.005.0006,Cemento y pulida del poste,5.00
+9,Protesis Fija,6,9.006,Puente de 1 corona de porcelana con incrustación d,250.00,09.006.0001,Preparación del diente,100.00
+9,Protesis Fija,6,NULL,NULL,NULL,09.006.0002,Toma de impresión,100.00
+9,Protesis Fija,6,NULL,NULL,NULL,09.006.0003,Provisional,20.00
+9,Protesis Fija,6,NULL,NULL,NULL,09.006.0004,Prueba,20.00
+9,Protesis Fija,6,NULL,NULL,NULL,09.006.0005,Cemento y pulida,10.00
+9,Protesis Fija,7,9.007,Puente de 1 corona con incrustación de porcelana,250.00,09.007.0001,Preparación del diente,150.00
+9,Protesis Fija,7,NULL,NULL,NULL,09.007.0002,Toma de impresión,40.00
+9,Protesis Fija,7,NULL,NULL,NULL,09.007.0003,Provisional,20.00
+9,Protesis Fija,7,NULL,NULL,NULL,09.007.0004,Prueba,20.00
+9,Protesis Fija,7,NULL,NULL,NULL,09.007.0005,Cemento y pulida,20.00
+9,Protesis Fija,8,9.008,Puente de 1 corona de acrilico con incrustación de,150.00,09.008.0001,Preparación del diente,100.00
+9,Protesis Fija,8,NULL,NULL,NULL,09.008.0002,Toma de impresión,20.00
+9,Protesis Fija,8,NULL,NULL,NULL,09.008.0003,Provisional,10.00
+9,Protesis Fija,8,NULL,NULL,NULL,09.008.0004,Prueba,10.00
+9,Protesis Fija,8,NULL,NULL,NULL,09.008.0005,Cemento y pulida,10.00
+9,Protesis Fija,9,9.009,Merilam de Porcelana con Metal,180.00,09.009.0001,Preparación del diente,100.00
+9,Protesis Fija,9,NULL,NULL,NULL,09.009.0002,Toma de impresión,20.00
+9,Protesis Fija,9,NULL,NULL,NULL,09.009.0003,Provisional,20.00
+9,Protesis Fija,9,NULL,NULL,NULL,09.009.0004,Prueba,20.00
+9,Protesis Fija,9,NULL,NULL,NULL,09.009.0005,Cemento y pulida,20.00
+9,Protesis Fija,10,9.010,Merilam de Porcelana sin Metal,180.00,09.010.0001,Preparación del diente,100.00
+9,Protesis Fija,10,NULL,NULL,NULL,09.010.0002,Toma de impresión,20.00
+9,Protesis Fija,10,NULL,NULL,NULL,09.010.0003,Provisional,20.00
+9,Protesis Fija,10,NULL,NULL,NULL,09.010.0004,Prueba,20.00
+9,Protesis Fija,10,NULL,NULL,NULL,09.010.0005,Cemento y pulida,20.00
+9,Protesis Fija,11,9.011,Merilam de acrilico con metal,100.00,09.011.0001,Preparación del diente,20.00
+9,Protesis Fija,11,NULL,NULL,NULL,09.011.0002,Toma de impresión,20.00
+9,Protesis Fija,11,NULL,NULL,NULL,09.011.0003,Provisional,20.00
+9,Protesis Fija,11,NULL,NULL,NULL,09.011.0004,Prueba,20.00
+9,Protesis Fija,11,NULL,NULL,NULL,09.011.0005,Cemento y pulida,20.00
+9,Protesis Fija,12,9.012,Merilam de acrilico sin metal,80.00,09.012.0001,Preparación del diente,20.00
+9,Protesis Fija,12,NULL,NULL,NULL,09.012.0002,Toma de impresión,20.00
+9,Protesis Fija,12,NULL,NULL,NULL,09.012.0003,Provisional,20.00
+9,Protesis Fija,12,NULL,NULL,NULL,09.012.0004,Prueba,10.00
+9,Protesis Fija,12,NULL,NULL,NULL,09.012.0005,Cemento y pulida,10.00
+9,Protesis Fija,13,9.013,Merilam de Resina con metal,100.00,09.013.001,Preparación del diente,30.00
+9,Protesis Fija,13,NULL,NULL,NULL,09.013.002,Toma de impresión,20.00
+9,Protesis Fija,13,NULL,NULL,NULL,09.013.003,Provisional,20.00
+9,Protesis Fija,13,NULL,NULL,NULL,09.013.004,Prueba,10.00
+9,Protesis Fija,13,NULL,NULL,NULL,09.013.005,Cemento,10.00
+9,Protesis Fija,13,NULL,NULL,NULL,09.013.006,Pulida,10.00
+9,Protesis Fija,14,9.014,Merilam de acrilico sin metal,80.00,09.014.001,Preparación del diente,20.00
+9,Protesis Fija,14,NULL,NULL,NULL,09.014.002,Toma de impresión,20.00
+9,Protesis Fija,14,NULL,NULL,NULL,09.014.003,Provisional,20.00
+9,Protesis Fija,14,NULL,NULL,NULL,09.014.004,Prueba,10.00
+9,Protesis Fija,14,NULL,NULL,NULL,09.014.005,Cemento,5.00
+9,Protesis Fija,14,NULL,NULL,NULL,09.014.006,Pulida,5.00
+9,Protesis Fija,15,9.015,Reparación de puente fijo con corona telescopica,180.00,09.015.001,Preparación de la pieza,NULL
+9,Protesis Fija,15,NULL,NULL,NULL,09.015.002,Impresión,NULL
+9,Protesis Fija,15,NULL,NULL,NULL,09.015.003,Provisional,NULL
+9,Protesis Fija,15,NULL,NULL,NULL,09.015.004,Prueba,NULL
+9,Protesis Fija,15,NULL,NULL,NULL,09.015.005,Colocación,NULL
+9,Protesis Fija,15,NULL,NULL,NULL,09.015.006,Ajuste,NULL
+9,Protesis Fija,16,9.016,Corona porcelana con metal cuello de ceramica,250.00,09.016.001,Modelo estudio,10.00
+9,Protesis Fija,16,NULL,NULL,NULL,09.016.002,Tallado,200.00
+9,Protesis Fija,16,NULL,NULL,NULL,09.016.003,Inspección,10.00
+9,Protesis Fija,16,NULL,NULL,NULL,09.016.004,Provisional,10.00
+9,Protesis Fija,16,NULL,NULL,NULL,09.016.005,Prueba,10.00
+9,Protesis Fija,16,NULL,NULL,NULL,09.016.006,Cementar y pulir,10.00
