@@ -4,7 +4,7 @@ const pool = require('@config/db');
 const getAllDoctores = async () => {
   const query = `
     SELECT *
-    FROM "odontbldoctor"
+    FROM "odontbldoctores"
     ORDER BY "iiddoctor" ASC
   `;
   const { rows } = await pool.query(query);
@@ -12,7 +12,7 @@ const getAllDoctores = async () => {
   // Generar nombre completo para cada doctor
   const doctores = rows.map(d => ({
     ...d,
-    nombreCompleto: [d.vnombre, d.vapellido].filter(Boolean).join(' ')
+    nombreCompleto: [d.vnombres, d.vapellidos].filter(Boolean).join(' ')
   }));
 
   return doctores;
@@ -23,8 +23,8 @@ const getDoctorById = async (id) => {
   const query = `
     SELECT
       "iiddoctor",
-      "vnombre",
-      "vapellido",
+      "vnombres",
+      "vapellidos",
       "iidcargo",
       "btemporal",
       "cestado"
@@ -36,7 +36,7 @@ const getDoctorById = async (id) => {
   if (!rows[0]) return null;
 
   const doctor = rows[0];
-  doctor.nombreCompleto = [doctor.vnombre, doctor.vapellido].filter(Boolean).join(' ');
+  doctor.nombreCompleto = [doctor.vnombres, doctor.vapellidos].filter(Boolean).join(' ');
 
   return doctor;
 };

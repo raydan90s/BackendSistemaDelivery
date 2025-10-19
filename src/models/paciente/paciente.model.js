@@ -1,63 +1,70 @@
-// src/models/paciente.model.js
 const pool = require('@config/db');
 
-// Función para traer todos los pacientes
+// Traer todos los pacientes
 const getAllPacientes = async () => {
   const query = `
     SELECT *
-    FROM "odontblpaciente"
-    ORDER BY iIdPaciente ASC
+    FROM "odontblpacientes"
+    ORDER BY "iidpaciente" ASC
   `;
   const { rows } = await pool.query(query);
   return rows;
 };
-  
-// 🔹 Obtener paciente por ID
+
+// Obtener paciente por ID
 const getPacienteById = async (id) => {
   const query = `
     SELECT 
       "iidpaciente",
-      "vnombre",
-      "vapellido",
-      "vapellidosecundario",
-      "vapellidootros",
-      "vci"
-    FROM "odontblpaciente"
+      "vnombres",
+      "vprimerapellido",
+      "vsegundoapellido",
+      "votrosapellidos",
+      "vcedula"
+    FROM "odontblpacientes"
     WHERE "iidpaciente" = $1
   `;
   const { rows } = await pool.query(query, [id]);
   if (!rows[0]) return null;
 
   const p = rows[0];
-  const nombreCompleto = [p.vapellido, p.vapellidosecundario, p.vapellidootros, p.vnombre]
+  const nombreCompleto = [p.vprimerapellido, p.vsegundoapellido, p.votrosapellidos, p.vnombres]
     .filter(Boolean)
     .join(' ');
 
-  return { iidpaciente: p.iidpaciente, vci: p.vci, nombreCompleto };
+  return { 
+    iidpaciente: p.iidpaciente, 
+    vcedula: p.vcedula, 
+    nombreCompleto 
+  };
 };
 
-// 🔹 Obtener paciente por cédula
-const getPacienteByCedula = async (vci) => {
+// Obtener paciente por cédula
+const getPacienteByCedula = async (cedula) => {
   const query = `
     SELECT 
       "iidpaciente",
-      "vnombre",
-      "vapellido",
-      "vapellidosecundario",
-      "vapellidootros",
-      "vci"
-    FROM "odontblpaciente"
-    WHERE "vci" = $1
+      "vnombres",
+      "vprimerapellido",
+      "vsegundoapellido",
+      "votrosapellidos",
+      "vcedula"
+    FROM "odontblpacientes"
+    WHERE "vcedula" = $1
   `;
-  const { rows } = await pool.query(query, [vci]);
+  const { rows } = await pool.query(query, [cedula]);
   if (!rows[0]) return null;
 
   const p = rows[0];
-  const nombreCompleto = [p.vapellido, p.vapellidosecundario, p.vapellidootros, p.vnombre]
+  const nombreCompleto = [p.vprimerapellido, p.vsegundoapellido, p.votrosapellidos, p.vnombres]
     .filter(Boolean)
     .join(' ');
 
-  return { iidpaciente: p.iidpaciente, vci: p.vci, nombreCompleto };
+  return { 
+    iidpaciente: p.iidpaciente, 
+    vcedula: p.vcedula, 
+    nombreCompleto 
+  };
 };
 
 module.exports = {

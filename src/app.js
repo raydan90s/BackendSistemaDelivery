@@ -9,7 +9,6 @@ const detalleTratamientoPacienteRoutes = require('@routes/detalleTratamientoPaci
 const app = express();
 
 // ✅ Middleware para permitir peticiones del frontend
-app.use(cors({ origin: 'http://localhost:5173' }));
 app.use(express.json());
 app.use(cors({
   origin: ['http://localhost:5173'], 
