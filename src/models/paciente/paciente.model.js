@@ -67,8 +67,16 @@ const getPacienteByCedula = async (cedula) => {
   };
 };
 
+const getNextIidPaciente = async () => {
+  const query = `SELECT MAX("iidpaciente") AS maxId FROM "odontblpacientes"`;
+  const { rows } = await pool.query(query);
+  const nextId = (rows[0].maxid ?? 0) + 1; // si no hay pacientes empieza en 1
+  return nextId;
+};
+
 module.exports = {
   getPacienteById,
   getPacienteByCedula,
-  getAllPacientes
+  getAllPacientes,
+  getNextIidPaciente
 };

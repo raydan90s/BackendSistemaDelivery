@@ -1,5 +1,5 @@
 // src/controllers/paciente.controller.js
-const { getAllPacientes, getPacienteById, getPacienteByCedula } = require('@models/paciente/paciente.model');
+const { getAllPacientes, getPacienteById, getPacienteByCedula, getNextIidPaciente } = require('@models/paciente/paciente.model');
 
 // GET /pacientes
 const fetchAllPacientes = async (req, res) => {
@@ -48,8 +48,19 @@ const obtenerPacientePorCedula = async (req, res) => {
   }
 };
 
+const obtenerSiguienteFicha = async (req, res) => {
+  try {
+    const nextFicha = await getNextIidPaciente();
+    res.json({ success: true, nextFicha });
+  } catch (err) {
+    console.error('Error obteniendo siguiente ficha:', err);
+    res.status(500).json({ success: false, message: 'Error del servidor' });
+  }
+};
+
 module.exports = {
   fetchAllPacientes,
   getPacienteByIdController,
-  obtenerPacientePorCedula
+  obtenerPacientePorCedula,
+  obtenerSiguienteFicha
 };
