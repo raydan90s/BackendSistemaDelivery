@@ -3,8 +3,10 @@ const cors = require('cors');
 const pool = require('./config/db');
 const pacienteRoutes = require('@routes/paciente/paciente.route');
 const usuarioRoutes  = require('@routes/usuario/usuario.route');
+const morgan = require('morgan');
 
 const app = express();
+app.use(morgan('dev'));
 app.use(express.json());
 app.use(cors({
   origin: ['http://localhost:5173'], 
