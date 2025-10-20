@@ -1,29 +1,35 @@
-# 🏥 Backend — Consultorio Arrobo
+# 🍔 Backend — Sistema Delivery y Restaurante
 
-Este repositorio contiene el **backend del sistema "Consultorio Arrobo"**, encargado de la **gestión de datos del consultorio odontológico**.  
-Incluye la configuración de **PostgreSQL en Docker**, scripts de **importación automática de archivos CSV** y la estructura base para desarrollar las **API REST** que se conectarán con el frontend.
+Este repositorio contiene el **backend del sistema "Delivery y Restaurante"**, encargado de la **gestión de productos, clientes, pedidos, inventario, facturación y usuarios**.  
+Permite gestionar toda la información necesaria para el funcionamiento del restaurante y el servicio de delivery, proporcionando **API REST** que se conectan con el frontend y la aplicación móvil.
 
 ---
 
 ## ⚙️ Tecnologías utilizadas
 
-- 🐘 **PostgreSQL 18**
-- 🐳 **Docker & Docker Compose**
-- 💻 **Bash Scripts** para inicialización e importación
-- 🧩 **Estructura base para APIs (Node.js / Python)**
-- 📁 **CSV Data Loader** (automatizado)
+- 🐬 **MySQL** como sistema de base de datos relacional  
+- 💻 **Node.js / Express** (o el framework de tu elección) para la creación de APIs REST  
+- 🧩 Estructura modular para manejar **módulos de productos, clientes, pedidos, inventario, facturación y usuarios**  
 
+---
 
 ## 🚀 Puesta en marcha (desde cero)
 
-Sigue estos pasos para levantar todo el entorno del backend:
+Sigue estos pasos para levantar el entorno del backend:
 
 ```bash
-# 1️⃣ Entra en la carpeta docker
-cd docker
+# 1️⃣ Instala dependencias
+npm install
 
-# 2️⃣ Construye e inicia los contenedores
-docker-compose up --build -d
+# 2️⃣ Configura la conexión a MySQL
+# Edita el archivo config/db.js con tu host, usuario, contraseña y base de datos
 
-# 3️⃣ Observa el progreso de inicialización
-docker logs -f soacDB
+# 3️⃣ Crea la base de datos y tablas (si aún no existen)
+# Puedes usar los scripts SQL disponibles en la carpeta `db`
+
+# 4️⃣ Inicia el servidor
+cd src
+node server.js
+
+# 5️⃣ El backend estará corriendo en:
+http://localhost:3000
