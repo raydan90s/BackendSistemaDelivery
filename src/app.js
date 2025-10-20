@@ -1,16 +1,11 @@
 const express = require('express');
 const cors = require('cors');
 const pool = require('./config/db');
-const pacienteRoutes = require('@routes/paciente/paciente.route');
 const usuarioRoutes  = require('@routes/usuario/usuario.route');
 const morgan = require('morgan');
-const doctorRoutes   = require('@routes/doctor/doctor.route');
-const detalleTratamientoPacienteRoutes = require('@routes/detalleTratamientoPaciente/detalleTratamientoPaciente.routes');
-
 
 const app = express();
 app.use(morgan('dev'));
-
 
 // ✅ Middleware para permitir peticiones del frontend
 app.use(express.json());
@@ -31,8 +26,5 @@ app.get('/', async (req, res) => {
   }
 });
 
-app.use('/pacientes', pacienteRoutes);
 app.use('/login', usuarioRoutes);
-app.use('/doctores', doctorRoutes);
-app.use('/detalles', detalleTratamientoPacienteRoutes);
 module.exports = app;
