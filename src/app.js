@@ -3,6 +3,7 @@ const cors = require('cors');
 const pool = require('./config/db');
 const usuarioRoutes  = require('@routes/usuario/usuario.route');
 const morgan = require('morgan');
+const { swaggerUi, specs } = require('./config/swagger');
 
 const app = express();
 app.use(morgan('dev'));
@@ -14,6 +15,8 @@ app.use(cors({
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
   credentials: true, 
 }));
+
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(specs));
 
 // 🔹 Ruta de prueba para ver si el backend responde
 app.get('/', async (req, res) => {
